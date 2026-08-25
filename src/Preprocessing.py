@@ -7,8 +7,10 @@ from sklearn.preprocessing import FunctionTransformer
 from sklearn.compose import ColumnTransformer
 
 from src.ClusterSimilarity import ClusterSimilarity
+from src.TrainTestSplit import housing, housing_y
 
 import numpy as np
+import pandas as pd
 
 # compute ratio
 def column_ratio(X):
@@ -46,3 +48,10 @@ preprocessing = ColumnTransformer([
     ("cat", cat_pipeline, make_column_selector(dtype_include=object)),
 ],
 remainder=default_num_pipeline) # one column remaining: housing_median_age
+
+if __name__ == "__main__": 
+    housing_transformed = preprocessing.fit_transform(housing)
+    housing_transformed = pd.DataFrame(housing_transformed, 
+                                       index=housing.index, 
+                                       columns=preprocessing.get_feature_names_out())
+    print(housing_transformed.info())
