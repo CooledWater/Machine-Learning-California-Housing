@@ -4,9 +4,9 @@ Exploratory data analysis and data pipeline can be found in study-notes.ipynb.
 Modularisation was performed for better organisation of source code.  
 
 ## Outline
-- Do a simple baseline linear regression model ✅
-- Compare and record the performance of different models ✅
-- Do hyperparameter tuning to improve a model ✅
+- Do a simple baseline linear regression model 
+- Compare and record the performance of different models 
+- Do hyperparameter tuning to improve a model 
 - Measure final performance with test set
 
 ## Model comparison
