@@ -16,4 +16,4 @@ print(housing_y.iloc[:5])
 from sklearn.metrics import root_mean_squared_error
 
 lin_error = root_mean_squared_error(housing_y, housing_predictions)
-print("rmse = ", lin_error)
+print("Linear regression rmse = ", lin_error)
