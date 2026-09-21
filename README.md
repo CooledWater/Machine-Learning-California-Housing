@@ -38,9 +38,9 @@ Random forest mean rmse on 3-fold cross validation using training set = 45027.
 We can see a 6% reduction in RMSE. 
 
 ## Final performance on test set
-Linear regression test rmse = 73149  
-Final random forest test rmse = 45325  
-We can see a 38% reduction in RMSE in the final model as compared to the baseline linear regression model. 
+Linear regression test rmse = 76081  
+Final random forest test rmse = 44479  
+We can see a 42% reduction in RMSE in the final model as compared to the baseline linear regression model. 
 
 
 

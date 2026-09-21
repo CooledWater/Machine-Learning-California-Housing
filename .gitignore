@@ -2,4 +2,4 @@ Hands-On Machine Learning with Scikit-Learn and Pytorch Concepts, Tools, and Tec
 Pandas_Cheat_Sheet.pdf
 
 src/__pycache__
-data
+data/model
